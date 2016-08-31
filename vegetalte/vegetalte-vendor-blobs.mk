@@ -301,11 +301,13 @@ PRODUCT_COPY_FILES += \
 
 # Wifi
 PRODUCT_COPY_FILES += \
-    vendor/bq/vegetalte/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app
-    vendor/bq/vegetalte/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so
-    vendor/bq/vegetalte/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf
-    vendor/bq/vegetalte/proprietary/bin/xtwifi-client:system/bin/xtwifi-client
-    vendor/bq/vegetalte/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent
+    vendor/bq/vegetalte/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
+    vendor/bq/vegetalte/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
+    vendor/bq/vegetalte/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
+    vendor/bq/vegetalte/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
+    vendor/bq/vegetalte/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
+    vendor/bq/vegetalte/proprietary/bin/lowi-server:system/bin/lowi-server \
+    vendor/bq/vegetalte/proprietary/vendor/bin/slim_ap_daemon:system/vendor/bin/slim_ap_daemon
     
 # Misc
 PRODUCT_COPY_FILES += \
